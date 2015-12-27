@@ -10,7 +10,7 @@ layout: default
     {% for post in site.posts %}
       <li>
         
-        <img class="post-imagen" src="../img/{{post.thumbnail}}" alt="{{post.title}}">
+        <img class="post-imagen" src="img/{{post.thumbnail}}" alt="{{post.title}}">
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
