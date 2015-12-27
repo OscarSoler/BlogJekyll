@@ -1,0 +1,50 @@
+.contenedor-posts
+	// background-color texto-accent
+	.post-titulo 
+		color texto-accent	
+		display block
+			
+	.post-list 
+		list-style none
+		width 100%
+		text-align center
+		li 
+			display inline-block
+			vertical-align top
+			padding-top 2em
+			padding-left 1em
+			overflow hidden
+			width 45%
+			margin 0 auto
+			margin 0.5em
+			text-align left
+			height 200px
+			position relative
+			h2, span
+				z-index 10
+				display block
+				position relative
+	
+	.post-imagen
+		width 100%		
+		position absolute 
+		top 0
+		left 0
+		opacity 0.5
+		z-index 5
+	.post-link
+		width 100%
+		color texto-primario
+		margin-top 2em
+	.post-meta
+		margin-top 1em
+		
+@media screen and (max-width: 800px)
+	.contenedor-posts
+		.post-list
+			margin 0
+			li 
+				width 100%
+				margin 0
+
+	
