@@ -341,13 +341,9 @@ div#contenedor-principal {
   overflow: hidden;
   position: absolute;
   top: 60px;
-  display: flex;
-  justify-content: center;
   left: 0;
-  align-items: center;
 }
 #banner img {
-  margin: 0 auto;
   display: block;
   width: 100%;
   height: auto;
@@ -358,7 +354,6 @@ div#contenedor-principal {
   color: #fff;
   text-align: center;
   position: absolute;
-  margin: auto;
   left: 0;
   top: 120px;
   bottom: 0;
