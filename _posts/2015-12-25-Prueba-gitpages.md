@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tercer Post con jekyll
+title: Cuarto Post con jekyll
 date: 2015-12-27 19:25:20 -0500
 categories: General
 thumbnail: banner.jpg
@@ -8,4 +8,4 @@ thumbnail: banner.jpg
 
 * Hola :)
 
-Segundo post publicado con jekyll
+Cuarto post publicado con jekyll y github pages
