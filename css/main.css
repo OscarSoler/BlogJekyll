@@ -366,7 +366,7 @@ div#contenedor-principal {
 }
 @media screen and (max-width: 500px) {
   #banner {
-    top: 60px;
+    top: 90px;
   }
   #banner h1 {
     font-size: 2em;
