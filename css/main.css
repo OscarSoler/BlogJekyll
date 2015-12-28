@@ -211,6 +211,7 @@ header {
   background: linear-gradient(160deg, rgba(124,77,255,0.9), rgba(3,169,244,0.9)), url("../img/banner.jpg") 50% 50%/cover no-repeat;
   background-position: 50%;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,7 +234,7 @@ nav {
   width: 100%;
   height: 60px;
   background-color: #fff;
-  margin-bottom: 300px;
+  margin-bottom: 320px;
   position: relative;
 }
 nav ul {
@@ -276,6 +277,9 @@ nav ul h4 {
 div#contenedor-principal {
   width: 80%;
   margin: 0 auto;
+}
+.contenedor-posts {
+  padding-top: 0.5em;
 }
 .contenedor-posts .post-titulo {
   color: #8593a2;
@@ -329,5 +333,42 @@ div#contenedor-principal {
     width: 100%;
     margin: 0;
     margin-bottom: 0.5em;
+  }
+}
+#banner {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: absolute;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  align-items: center;
+}
+#banner img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#banner h1 {
+  font-size: 3.5em;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 120px;
+  bottom: 0;
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  #banner {
+    top: 60px;
+  }
+  #banner h1 {
+    font-size: 2em;
   }
 }

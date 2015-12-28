@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layout_post
 title: Tercer Post con jekyll
 date: 2015-12-27 19:25:20 -0500
 categories: General
